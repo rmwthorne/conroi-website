@@ -1,0 +1,108 @@
+/*
+ Theme Name:     Conroi Theme
+ Theme URI:      http://www.conroi.com/
+ Description:    Conroi theme
+ Author:         Ross Thorne
+ Author URI:     http://resaraos.com
+ Template:       vantage
+ Version:        0.0.1
+*/
+
+@import url("../vantage/style.css");
+
+/* =Custom Fonts
+-------------------------------------------------------------- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Muli);
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+html { 
+    background: #111; 
+}
+
+.site-content {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.entry-content { line-height: 200%; }
+
+.main-navigation {
+    border: #333 solid;
+    border-width: 2px 0;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.main-navigation ul li { font-family: 'Muli', sans-serif; }
+
+.main-navigation ul li:hover > a,
+.main-navigation ul ul li:hover > a
+    {
+    background: darkred;
+}
+
+.layout-full{
+    background-color: #000;
+}
+
+header#masthead {
+    background: #000;
+}   
+
+header#masthead hgroup {
+    padding-bottom: 30px;
+    padding-top: 0;
+}
+
+.main-navigation {
+    background: #000/*#202125*/;
+    font-size: 120%;
+    font-family: sans-serif;
+}
+
+.panel-row-style-preamble {
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-image:url("http://localhost:8888/wordpress/wp-content/uploads/2015/03/luna_lucy_sm.png");
+    background-position: bottom right;
+}
+
+.site-main {
+    font-size: 18px;
+}
+
+/* = Styles for WP YouTube Lyte plugin  
+-------------------------------------------------------------- */
+
+.lidget {
+    border: 2px darkred solid;
+    -webkit-box-shadow: 0px 0px 19px 5px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 0px 19px 5px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 0px 19px 5px rgba(50, 50, 50, 0.5);
+}
+
+.vantage-carousel-title    {
+    color: #fff;
+}
+
+.vantage-carousel-wrapper .vantage-carousel li.carousel-entry h3 a {
+    color: #fff;
+}
+
+/* = Template-Specific styles 
+-------------------------------------------------------------- */
+.page-template-template-full-notitle .entry-content {
+    padding: 2em 0;
+}
+
+/* = Widget / footer styles 
+-------------------------------------------------------------- */
+
+.widget-title {
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 1em;
+}
