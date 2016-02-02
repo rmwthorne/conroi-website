@@ -65,8 +65,11 @@ header#masthead hgroup {
 .panel-row-style-preamble {
     min-height: 500px;
     background-repeat: no-repeat;
-    background-image:url("http://localhost:8888/wordpress/wp-content/uploads/2015/03/luna_lucy_sm.png");
     background-position: bottom right;
+}
+
+.panel-row-style-preamble:last-child {
+    background-image:url("http://localhost:8888/wordpress/wp-content/uploads/2015/03/luna_lucy_sm.png");
 }
 
 .site-main {
